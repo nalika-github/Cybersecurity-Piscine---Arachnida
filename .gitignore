@@ -1,0 +1,15 @@
+# virtual environment
+venv/
+env/
+
+# ไฟล์ Python bytecode
+__pycache__/
+*.pyc
+
+# ไฟล์ log
+*.log
+
+# ไฟล์ที่สร้างโดยระบบหรือ IDE
+.DS_Store
+.idea/
+.vscode/
