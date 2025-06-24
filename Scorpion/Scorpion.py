@@ -29,9 +29,6 @@ def main():
                         print(f"     {tag}: {value}")
                 else:
                     print("   No EXIF data found.")
-                ctime = os.path.getctime(file_path)
-                created = datetime.fromtimestamp(ctime).strftime('%Y-%m-%d %H:%M:%S')
-                print(f"   Created (OS): {created}")
         except Exception as e:
             print(f"⚠️ Error: {e}")
 
